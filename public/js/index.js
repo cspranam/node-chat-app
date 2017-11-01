@@ -11,3 +11,4 @@ socket.on('newMessage', function(msg) {
 	console.log('newMessage from server : ', msg);
 	
 });
+
