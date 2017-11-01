@@ -4,7 +4,7 @@ const express = require('express');
 const socketIO = require('socket.io');
 
 const publicPath = path.join(__dirname, "../public");
-const port = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 
 var app = express();
 var server = http.createServer(app);
